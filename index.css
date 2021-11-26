@@ -24,19 +24,19 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 3px;
     background-color: black;
 }
 
 nav div{
     margin: 8px;   
+    width: 100px;
 }
 
 nav a{
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 7px;
+    padding: 13px;
     border-radius: 6px;
     transition-duration: .3s;
     margin: auto;
