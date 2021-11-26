@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+:root{
+    --cor01:#F4D26C;
+    --cor02:#F2BE22;
+    --cor03:#BF961B;
+    --cor04:#736332;
+    --cor05:#735A10;
+}
+
+body{
+    margin: 0px;
+    background-color:white;
+}
+
+header{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    height: 40px;
+    margin: 3px 0px 0px 0px;
+    padding-top: 23px;
+    padding-left: 3px;
+    background-color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    transition-duration: .3s;
+}
+
+nav > a:hover{
+    background-color: var(--cor05);
+}
+
+div.apresentacao{
+    margin: auto;
+    padding-bottom: 34%;
+    position: relative;
+} 
+
+div.logo{
+    width: 26vw;
+    height: 0vw;
+    margin-left: 0vw;
+}
+
+div.text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 1000px; 
+    height: 15vw;
+    margin: auto;
+}
+
+div.text > h1{
+    margin: auto;
+    font-size: 8vw;
+    text-align: center;
+}
+
+div.text > p{
+    margin: auto;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+main img{
+    max-width: 100%;
+    display: block;
+}
+
+main p{
+    text-align: center;
+}
+
+main > div.Subtitulo{
+    margin: 0px;
+    background-color: var(--cor04); 
+    padding: 25px;
+}
+
+main > div.Subtitulo > h2{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin: 0px;
+}
+
+main article p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.1em;
+    margin: 30px auto;
+    max-width: 400px;
+}
+
+main > div.Subtitulo2{
+    margin: auto;
+    padding: 15px;
+    max-width: 200px;
+}
+
+main > div.Subtitulo2 > h3{
+    text-align: center;
+    font-size: 1.6em;
+    color: var(--cor03);
+    margin: 0px;
+}
+
+main div.icone{
+    flex: 1 1 100px;
+    max-width: 100px;
+    margin: 50px 0px;   
+}
+
+div.icone {
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    background-color:var(--cor04);
+}
+
+footer div.rodape{
+    flex: 1 1 400px;
+    max-width: 400px;
+    margin: 0px 40px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 3px;
+    border-radius: 6px;
+    transition-duration: .3s;
+}
+
+footer a:hover{
+    background-color: var(--cor02);
+    color: var(--cor05);
+}
